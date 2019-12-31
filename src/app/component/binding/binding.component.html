@@ -1,0 +1,15 @@
+<div>
+    <!-- very important 
+    [(ngModel)]="personName" is two way binding 
+    [ngModel]= "personName" is one way binding ...  -->
+    
+    <input type="search" placeholder="try two way binding" [(ngModel)]="personName"><h6> --- this is two way binding</h6><br>
+    <input type="search" placeholder="try one way binding" [ngModel]="personName"><h6> --- this is one  way binding</h6><br>
+    <div class="container" style="background-color: springgreen;">
+    <b>{{personName}}</b>
+    <h4> is </h4>
+    <b>{{personSex}}</b><br>
+</div>
+    <button (click)="toggleEvents()" [disabled] = "checkName()">Change Gender</button>
+</div>
+
