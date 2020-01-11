@@ -31,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 course :
 1) reusable component - fiorst and second component 
 2) binding - binding component 
-3) directives - 
+3) directives
